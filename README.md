@@ -1,4 +1,4 @@
-#FraudShield AI: Intelligent Detection of Financial Transaction Anomalies
+FraudShield AI: Intelligent Detection of Financial Transaction Anomalies
 
 A **Machine Learning–powered Streamlit web application** that detects fraudulent online payment transactions in real time.  
 This project applies AI techniques to analyze transactional patterns and classify transactions as **fraudulent or legitimate** based on behavioral and financial attributes.
