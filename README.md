@@ -1,12 +1,12 @@
-FraudShield AI: Intelligent Detection of Financial Transaction Anomalies
+# 🚀 **FraudShield AI: Intelligent Detection of Financial Transaction Anomalies**
 
-A **Machine Learning–powered Streamlit web application** that detects fraudulent online payment transactions in real time.  
-This project applies AI techniques to analyze transactional patterns and classify transactions as **fraudulent or legitimate** based on behavioral and financial attributes.
+### 🧠 *A Machine Learning–powered Streamlit web application that detects fraudulent online payment transactions in real time.*
+
+This project applies **AI techniques** to analyze transactional patterns and classify transactions as **fraudulent or legitimate** based on behavioral and financial attributes.
 
 ---
 
 ## 🧠 Overview
-
 Online payment fraud poses a major challenge to digital financial systems.  
 This project leverages **supervised Machine Learning algorithms** such as **XGBoost** and **Random Forest** to identify fraudulent transactions using transactional data.  
 The model is integrated into a **Streamlit web app** for interactive real-time predictions.
@@ -14,7 +14,6 @@ The model is integrated into a **Streamlit web app** for interactive real-time p
 ---
 
 ## ⚙️ Tech Stack
-
 - **Language:** Python 🐍  
 - **Framework:** Streamlit  
 - **Libraries:** Pandas, NumPy, Scikit-learn, XGBoost, Joblib, Matplotlib, Seaborn  
@@ -24,7 +23,6 @@ The model is integrated into a **Streamlit web app** for interactive real-time p
 ---
 
 ## 📊 Features
-
 ✅ Detects fraudulent transactions using trained ML model  
 ✅ User-friendly web interface built with Streamlit  
 ✅ Real-time input form for transaction details  
@@ -36,22 +34,22 @@ The model is integrated into a **Streamlit web app** for interactive real-time p
 
 ## 🧩 Project Workflow
 
-1. **Data Preprocessing**
-   - Loaded dataset from Kaggle (Online Payment Fraud Detection).
-   - Cleaned data and encoded categorical variables.
-   - Split dataset into training and testing sets.
+### 1️⃣ Data Preprocessing
+- Loaded dataset from Kaggle (Online Payment Fraud Detection).  
+- Cleaned data and encoded categorical variables.  
+- Split dataset into training and testing sets.  
 
-2. **Model Training**
-   - Compared multiple algorithms (Logistic Regression, Random Forest, XGBoost).
-   - Evaluated model using ROC-AUC and F1-Score.
-   - Saved trained model as `fraud_model.pkl` using Joblib.
+### 2️⃣ Model Training
+- Compared multiple algorithms (Logistic Regression, Random Forest, XGBoost).  
+- Evaluated model using **ROC-AUC** and **F1-Score**.  
+- Saved trained model as `fraud_model.pkl` using Joblib.  
 
-3. **Streamlit Web App**
-   - Interactive form for users to input transaction data.
-   - Real-time fraud prediction results with color-coded output.
+### 3️⃣ Streamlit Web App
+- Interactive form for users to input transaction data.  
+- Real-time fraud prediction results with color-coded output.  
 
-4. **Deployment**
-   - Hosted on Streamlit Cloud for public access.  
+### 4️⃣ Deployment
+- Hosted on Streamlit Cloud for public access.  
 
 ---
 
@@ -77,7 +75,6 @@ The model is integrated into a **Streamlit web app** for interactive real-time p
 | Precision | 0.94 |
 | Recall | 0.91 |
 | ROC-AUC | 0.997 |
-
 ---
 
 ## 🖥️ Local Setup
